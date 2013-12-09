@@ -13,8 +13,9 @@ public class JarJarBeans {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         System.out.println("success!");
+        throw new Exception("Haha");
     }
     
     public static int addition(int nb1, int nb2){
