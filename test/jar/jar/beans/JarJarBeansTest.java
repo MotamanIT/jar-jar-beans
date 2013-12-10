@@ -57,6 +57,6 @@ public class JarJarBeansTest {
         System.out.println("pow");
         Double nb1 = new Double(2);
         JarJarBeans.pow(nb1);
-        assertEquals(new Double(4), nb1);
+        assertEquals(new Double(2), nb1);
     }
 }
