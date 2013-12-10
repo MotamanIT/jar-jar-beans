@@ -25,4 +25,8 @@ public class JarJarBeans {
     public static void pow (Double nb1){
         nb1 = Math.pow(nb1, nb1);
     }
+    
+    public static boolean isPair(int nb1){
+        return nb1%2==0;
+    }
 }
